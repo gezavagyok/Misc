@@ -15,7 +15,7 @@ namespace arrays
 
         bool correctAnswer(string answer)
         {
-            Console.WriteLine("your answer was %s, and it's correct!", answer);
+            Console.WriteLine("your answer was {0}, and it's correct!", answer);
             return false;
         }
 
