@@ -9,11 +9,11 @@ private void swap(ref int a, ref int b) {
 
 /**
  *	Bubble sort
- * an easy to learn algorythm, but it takes more time to 
+ * an easy to learn algorithm, but it takes more time to 
  * sort especially if the array has 1000+ elements.
  */
 public void bubbleSort(ref int[] arr){													// ref: i can change the values of this array if i put this word before the type
-	bool areValuesSwapped = true;														// the algorythm stops when no swaps were made, thus areValuesSwapped==false means no swaps were made by the for loop.
+	bool areValuesSwapped = true;														// the algorithm stops when no swaps were made, thus areValuesSwapped==false means no swaps were made by the for loop.
 	while (areValuesSwapped ) {															// while it's possible to swap, we should run this over and over again
 		areValuesSwapped = false;														// let's say, we can't make any more swaps.
 		for(int targatCell = 0; targetCell+1 < arr.Length; targetCell++) {	// we check every cell in the array
